@@ -453,3 +453,10 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+#mc-embedded-subscribe {
+    background-color: #{{ site.color.primary }} !important;
+}
+#mc-embedded-subscribe:hover {
+    background-color: #{{ site.color.secondary }} !important;
+}
