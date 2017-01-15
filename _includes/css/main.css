@@ -3,19 +3,15 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
-body {
+ body {
     overflow-x: hidden;
 }
-
 p {
     font-size: 20px;
 }
-
 p.small {
     font-size: 16px;
 }
-
 a,
 a:hover,
 a:focus,
@@ -24,7 +20,6 @@ a.active {
     outline: 0;
     color: #{{ site.color.primary }};
 }
-
 h1,
 h2,
 h3,
@@ -35,7 +30,6 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -45,7 +39,6 @@ hr.star-primary {
     border-top: solid 5px;
     text-align: center;
 }
-
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
@@ -56,45 +49,36 @@ hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 2em;
 }
-
 hr.star-light {
     border-color: #fff;
 }
-
 hr.star-light:after {
     color: #fff;
     background-color: #{{ site.color.primary }};
 }
-
 hr.star-primary {
     border-color: #{{ site.color.secondary }};
 }
-
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
 }
-
 .img-centered {
     margin: 0 auto;
 }
-
 header {
     text-align: center;
     color: #fff;
     background: #{{ site.color.primary }};
 }
-
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
 }
-
 header img {
     display: block;
     margin: 0 auto;
 }
-
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
@@ -102,107 +86,86 @@ header .intro-text .name {
     font-size: 2em;
     font-weight: 700;
 }
-
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
 }
-
 @media(min-width:768px) {
     header .container {
         padding-top: 150px;
     }
-
-    header .intro-text .name {
+        header .intro-text .name {
         font-size: 4.75em;
     }
-
-    header .intro-text .skills {
+        header .intro-text .skills {
         font-size: 1.75em;
     }
-
-    .navbar-fixed-top {
+        .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
-
-    .navbar-fixed-top .navbar-brand {
+        .navbar-fixed-top .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
-
-    .navbar-fixed-top.navbar-shrink {
+        .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
 }
-
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
 .navbar a:focus {
     outline: 0;
 }
-
 .navbar .navbar-nav {
     letter-spacing: 1px;
 }
-
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
-
 .navbar-default,
 .navbar-inverse {
     border: 0;
 }
-
 section {
     padding: 100px 0;
 }
-
 section h2 {
     margin: 0;
     font-size: 3em;
 }
-
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
-
 @media(max-width:767px) {
     section {
         padding: 75px 0;
     }
-
-    section.first {
+        section.first {
         padding-top: 75px;
     }
 }
-
 #panier .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
-
 #panier .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
-
 #panier .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
@@ -213,11 +176,9 @@ section.success {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
-
 #panier .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
-
 #panier .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
@@ -228,26 +189,21 @@ section.success {
     font-size: 20px;
     color: #fff;
 }
-
 #panier .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
-
 #panier .portfolio-item .portfolio-link .caption .caption-content h3,
 #panier .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
-
 #panier * {
     z-index: 2;
 }
-
 @media(min-width:767px) {
     #panier .portfolio-item {
         margin: 0 0 30px;
     }
 }
-
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -256,7 +212,6 @@ section.success {
     background: 0 0;
     transition: all .3s ease-in-out;
 }
-
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -265,14 +220,12 @@ section.success {
     color: #{{ site.color.primary }};
     background: #fff;
 }
-
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
     border-bottom: 1px solid #eee;
 }
-
 .floating-label-form-group input,
 .floating-label-form-group textarea {
     z-index: 1;
@@ -286,7 +239,6 @@ section.success {
     box-shadow: none!important;
     resize: none;
 }
-
 .floating-label-form-group label {
     display: block;
     z-index: 0;
@@ -303,47 +255,37 @@ section.success {
     -ms-transition: top .3s ease,opacity .3s ease;
     transition: top .3s ease,opacity .3s ease;
 }
-
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eee;
 }
-
 .floating-label-form-group-with-value label {
     top: 0;
     opacity: 1;
 }
-
 .floating-label-form-group-with-focus label {
     color: #{{ site.color.primary }};
 }
-
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
-
 footer {
     color: #fff;
 }
-
 footer h3 {
     margin-bottom: 30px;
 }
-
 footer .footer-above {
     padding-top: 50px;
     background-color: #{{ site.color.secondary-dark }};
 }
-
 footer .footer-col {
     margin-bottom: 50px;
 }
-
 footer .footer-below {
     padding: 25px 0;
     background-color: #{{ site.color.secondary-dark }};
 }
-
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -354,13 +296,11 @@ footer .footer-below {
     font-size: 20px;
     line-height: 45px;
 }
-
 .btn:focus,
 .btn:active,
 .btn.active {
     outline: 0;
 }
-
 .scroll-top {
     z-index: 1049;
     position: fixed;
@@ -369,7 +309,6 @@ footer .footer-below {
     width: 50px;
     height: 50px;
 }
-
 .scroll-top .btn {
     width: 50px;
     height: 50px;
@@ -377,11 +316,9 @@ footer .footer-below {
     font-size: 20px;
     line-height: 28px;
 }
-
 .scroll-top .btn:focus {
     outline: 0;
 }
-
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -392,20 +329,16 @@ footer .footer-below {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
-
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
-
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
-
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
@@ -415,11 +348,9 @@ footer .footer-below {
     background-color: transparent;
     cursor: pointer;
 }
-
 .portfolio-modal .close-modal:hover {
     opacity: .3;
 }
-
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
@@ -430,7 +361,6 @@ footer .footer-below {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
@@ -440,18 +370,15 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
-
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
-
 #mc-embedded-subscribe {
     background-color: #{{ site.color.primary }} !important;
 }
@@ -482,3 +409,43 @@ iframe.ha_vignette {
     border: 10px solid #{{ site.color.secondary }};
     max-width: 100%;
 }
+// Mailchimp
+/* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; transition: all 0.23s ease-in-out 0s; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+#mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
+#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
+* html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+#mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
+#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+#mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
+#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
+#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
+#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
+#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
+#mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
+#mc_embed_signup .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}     
+#mc_embed_signup .clear {clear:both;}
+#mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
+#mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+#mc_embed_signup .mc-field-group.input-group label {display:inline;}
+#mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+#mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
+#mc_embed_signup #num-subscribers {font-size:1.1em;}
+#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
