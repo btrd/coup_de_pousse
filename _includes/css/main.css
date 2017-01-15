@@ -460,3 +460,13 @@ footer .footer-below {
 #mc-embedded-subscribe:hover {
     background-color: #{{ site.color.secondary }} !important;
 }
+iframe#haWidget {
+    width: 100% !important;
+    height: 320px !important;
+}
+.about_pic {
+    text-align: center;
+}
+.about_pic img {
+    border: 10px solid #{{ site.color.secondary }};
+}
