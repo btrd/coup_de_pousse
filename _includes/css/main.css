@@ -120,9 +120,7 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
-}
 
-@media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -460,13 +458,27 @@ footer .footer-below {
 #mc-embedded-subscribe:hover {
     background-color: #{{ site.color.secondary }} !important;
 }
-iframe#haWidget {
+iframe.ha_horizonthal {
     width: 100% !important;
     height: 320px !important;
+}
+iframe.ha_vignette {
+    width: 100% !important;
+}
+@media(min-width:768px) {
+    iframe.ha_vignette {
+        display: none;
+    }
+}
+@media(max-width:768px) {
+    iframe.ha_horizonthal {
+        display: none;
+    }
 }
 .about_pic {
     text-align: center;
 }
 .about_pic img {
     border: 10px solid #{{ site.color.secondary }};
+    max-width: 100%;
 }
