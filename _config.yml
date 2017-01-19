@@ -3,9 +3,8 @@ title: Coup d'Pousse
 email: contact@pousse.org
 url: http://pousse.org
 # url: http://locahost:4000
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Association Lilloise de promotion d'un mode de consommation alternatif, locale et écologique"
 skills: "Circuits courts - Solidaire - Écologique"
-meta_author: LastName FirstName
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
