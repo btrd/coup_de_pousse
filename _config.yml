@@ -1,7 +1,7 @@
 # Site settings
 title: Coup d'Pousse
 email: contact@pousse.org
-url: https://btrd.github.io/coup_de_pousse/
+url: http://pousse.org
 # url: http://locahost:4000
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 skills: "Circuits courts - Solidaire - Écologique"
@@ -43,3 +43,12 @@ credits: '<a href="mailto:contact@pousse.org">contact@pousse.org</a>'
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENCE
+  - README.md
+  - deploy.sh
+  - screenshot.png
+  - deploy.log
